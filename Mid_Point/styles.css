@@ -1,0 +1,75 @@
+/* Comentário: Este é um arquivo CSS básico */
+
+/* Estilizando o corpo da página */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilizando um cabeçalho */
+  h1 {
+    color: #007bff;
+  }
+  
+  /* Estilizando uma classe de caixa */
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc00;
+    border: 1px solid #e0e0e0;
+  }
+
+  .container {
+    display: flex; /* Usar flexbox para layout */
+    align-items: center; /* Alinhar itens verticalmente */
+    }
+    
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    max-height: 100px;
+    background-color: #00000000;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .slider {
+    width: 100%;
+  }
+  
+  #sliderValue {
+    color: #8f2c2c; /* Definir a cor do texto para branco */
+  }
+
+  #style1 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  #style1::-webkit-color-swatch {
+    border-radius: 15px;
+    border: none;
+  }
+  #style1::-moz-color-swatch {
+    border-radius: 15px;
+    border: none;
+  }
+
+/*EOF*/
